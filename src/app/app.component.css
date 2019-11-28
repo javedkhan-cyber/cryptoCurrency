@@ -1,0 +1,156 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js");
+
+/* .container-fluid {
+    padding: 0;
+    margin: 0;
+    display: block;
+    
+}
+.container {
+    min-height: 70vh;
+} */
+
+
+header {
+    font-family: 'Trebuchet MS', sans-serif;
+    display: block;
+}
+
+/* .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    font-family: 'Trebuchet MS', monospace;
+    color: rgb(17, 15, 15);
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration-line: none;
+    margin-right: 30px;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(88, 83, 95);
+    border:rgb(221, 221, 233) 0 transparent;
+    text-shadow: 2px 1px  3px rgb(145, 153, 161);
+    margin-top: 1vh;
+    font-size: 2.2rem;
+    font-weight: 700;
+    border-radius: 20px;
+    text-decoration-line: none;
+}
+.navbar .navbar-collapse .navbar-nav {
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+
+}
+.navbar .navbar-brand {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(12, 11, 11);
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-decoration-line: none;
+    
+} */
+
+/* .d-inline-block {
+    border-radius: 15px;
+}
+.navbar .navbar-brand:hover {
+    font-weight: bolder;
+    color: rgb(7, 83, 83);
+    text-decoration-line: none;
+}
+
+footer { 
+    display: block;
+}
+.foo {
+    color: rgb(65, 61, 61);
+}
+.i {
+    font-size:2rem;
+    width: 40px;
+    height: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.i :hover{
+    text-decoration: none;
+    color: rgb(212, 154, 154);
+}
+.font-weight-light {
+    font-family: Times;
+    font-size: 1rem;
+    align-self: center;
+    justify-items: center;
+}
+@media screen and (min-width: 653px) and (max-width: 805px) {
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+        font-size: 2rem;
+        font-weight: 450;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+    .navbar .navbar-brand {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .i {
+        font-size:1.8rem;
+    }
+
+}
+@media screen and (min-width: 455px) and (max-width: 652px) {
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .navbar .navbar-brand {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .i {
+        font-size:1.7rem;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 454px) {
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .navbar .navbar-brand {
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+    .i {
+        font-size:1.5rem;
+    }
+    
+}
+@media screen and (min-width: 200px) and (max-width: 350px) {
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+        font-size: 1.2rem;
+        font-weight: 320;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .navbar .navbar-brand {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    .i {
+        font-size:1.5rem;
+    }
+} */

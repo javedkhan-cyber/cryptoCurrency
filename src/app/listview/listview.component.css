@@ -1,0 +1,330 @@
+  @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+thead {
+    font-family: 'Lucida Sans Regular', Verdana;
+    font-size: 1.8rem;
+    color: rgb(21, 31, 31);
+}
+/* tbody {
+    font-family:  'Lucida Sans Unicode', Geneva;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+tbody tr {
+    cursor: pointer;
+}
+tbody tr:hover{
+    background-color: rgb(233, 245, 245);
+} */
+pagination-controls  {
+    
+    font-family: 'Segoe UI', Tahoma;
+    text-decoration-line: none;
+    font-weight: 500;
+    justify-content: center;
+    
+}
+.mat-slider-thumb-label {
+    transform: rotate(45deg) !important;
+    border-radius: 50% 50% 0 !important;
+  }
+  
+  .mat-slider-thumb {
+    transform: scale(0) !important;
+  }
+  
+  .mat-slider-thumb-label-text {
+    opacity: 1 !important;
+  }
+  .slider {
+      margin:10px;
+      width:28vw;
+  }
+.sorting .slidebox {
+    padding: 10px;
+    justify-items: center;
+    color: rgb(11, 19, 36);
+    background-color: rgb(204, 221, 221);
+    width:30vw;
+    border:1px rgb(25, 25, 46) thin;
+    margin-right: 5vw;
+    font-family: 'Lucida Sans Unicode', Geneva;
+    font-size: 1.5rem;
+    height: 5vh;
+    border-radius: 8px;
+}
+/* .table {
+    align-self: center;
+} */
+.gochart {
+    cursor:alias;
+    color: rgb(18, 53, 53);
+    font-size:9px;
+    font-family: Georgia;
+}
+.gochart:hover {
+    color: rgb(45, 124, 124);
+}
+.slidetoggler {
+    font-family: 'Franklin Gothic Medium',sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color:red;
+
+}
+ .material-icons {
+    color :cadetblue;
+}
+.comparison {
+    color:rgba(44, 16, 16, 0.397);
+    font-size: 3rem;
+    align-items: center;
+    cursor:pointer;
+}
+
+.addfav {
+    color :rgb(155, 61, 108);
+}
+.removefav {
+    color :cadetblue;
+}
+
+
+.card {
+    border-color:transparent;
+}
+.card-header {
+    background-color: transparent;
+}
+.card-header .card-header-tabs .nav-item .nav-link {
+    font-family: Cambria;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-header .card-header-tabs .nav-item .nav-link :hover {
+    box-shadow:0 2px 3px 1 rgb(103, 109, 107);
+    cursor: pointer;
+    background-color: transparent;
+    font-family:  Cochin
+}
+.namesall {
+    color: rgb(19, 19, 56);
+    text-shadow: 1px 0 1px teal;
+}
+.sort {
+    color: rgb(72, 128, 150);
+    font-size: 1.8rem;
+    font-family: cursive;
+    text-decoration-line: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sort :hover {
+    color: rgb(108, 206, 206);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.sorting {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+} 
+
+
+@media screen and (min-width: 336px) and (max-width: 780px) {
+    thead {
+        font-size: 1.3rem;
+    }
+    tbody {
+        font-size: 1.2rem;
+    }
+    .sorting .slidebox {
+        font-size: 1.5rem;
+    }
+    .gochart {
+        font-size:9px;
+    }
+    .slidetoggler {
+         font-size: 1.8rem;
+        font-weight: bold;    
+    }
+    .sort {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+    .sort :hover {
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }
+    
+}
+
+@media screen and (min-width: 658px) and (max-width: 780px) {
+    thead {
+        font-size: 1.3rem;
+    }
+    tbody {
+        font-size: 1.2rem;
+    }
+    .sorting .slidebox {
+        font-size: 1.2rem;
+    }
+    .gochart {
+        font-size:9px;
+    }
+    .slidetoggler {
+         font-size: 1.8rem;
+        font-weight: bold;    
+    }
+    .sort {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    .sort :hover {
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }  
+}
+@media screen and (min-width: 542px) and (max-width: 657px) {
+    thead {
+        font-size: 1.1rem;
+    }
+    tbody {
+        font-size: 1rem;
+    }
+    .sorting .slidebox {
+        font-size: 1rem;
+    }
+    .slidetoggler {
+         font-size: 1.8rem;
+        font-weight: bold;    
+    }
+    .sort {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .sort :hover {
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }
+    
+}
+@media screen and (min-width: 492px) and (max-width: 541px) {
+    thead {
+        font-size: 1rem;
+    }
+    tbody {
+        font-size: 0.8rem;
+    }
+    .sorting .slidebox {
+        font-size: 1rem;
+    }
+    .slidetoggler {
+         font-size: 1.5rem;
+        font-weight: bold;    
+    }
+    .sort {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .sort :hover {
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }
+    
+}
+@media screen and (min-width: 400px) and (max-width: 492px) {
+    thead {
+        font-size: 0.8rem;
+    }
+    tbody {
+        font-size: 0.7rem;
+    }
+    .sorting .slidebox {
+        font-size: 0.8rem;
+    }
+    .slidetoggler {
+         font-size: 1.5rem;
+        font-weight: bold;    
+    }
+    .sort {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .sort :hover {
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }
+    .material-icons {
+        size: 0.8rem;
+    }
+    .gochart {
+        font-size:6px;
+    }
+    
+}
+@media screen and (min-width: 300px) and (max-width: 399px) {
+    thead {
+        font-size: 0.7rem;
+    }
+    tbody {
+        font-size: 0.5rem;
+    }
+    .sorting .slidebox {
+        font-size: 0.7rem;
+    }
+    .slidetoggler {
+         font-size: 1.5rem;
+        font-weight: bold;    
+    }
+    .sort {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .sort :hover {
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }
+    .material-icons {
+        size: 0.6rem;
+    }
+    .gochart {
+        font-size:5px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 399px) {
+    thead {
+        font-size: 0.5rem;
+    }
+    tbody {
+        font-size: 0.3rem;
+    }
+    .sorting .slidebox {
+        font-size: 0.6rem;
+    }
+    .slidetoggler {
+         font-size: 1rem;
+        font-weight: bold;    
+    }
+    .sort {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .sort :hover {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    .material-icons {
+        size: 0.3rem;
+    }
+    .gochart {
+        font-size:4px;
+    }
+}

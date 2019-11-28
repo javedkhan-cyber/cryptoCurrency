@@ -1,0 +1,43 @@
+.btn {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 1.4rem;
+}
+.grt {
+    font-family:  'Helvetica Neue',cursive;
+    font-size: 1.5rem;
+    color: blueviolet;
+    align-self: center;
+    margin-left: 10vw;
+}
+@media screen and (min-width: 506px) and (max-width: 805px) {
+    .btn {
+        font-size: 1.3rem;
+    }
+    .grt {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 455px) and (max-width: 652px) {
+    .btn {
+        font-size: 1.1rem;
+    }
+    .grt {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 336px) and (max-width: 454px) {
+    .btn {
+        font-size: 1rem;
+    }
+    .grt {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 335px) {
+    .btn {
+        font-size: 1rem;
+    }
+    .grt {
+        font-size: 0.7rem;
+    }
+}
