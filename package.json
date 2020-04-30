@@ -32,7 +32,7 @@
     "highcharts": "^7.2.1",
     "highcharts-angular": "^2.4.0",
     "ionic-long-press": "^2.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "material-design-icons": "^3.0.1",
     "ng-angular8-datatable": "^0.9.11",
     "ng2-charts": "^2.3.0",
